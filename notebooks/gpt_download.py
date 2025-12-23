@@ -113,7 +113,7 @@ def download_file(url, destination, backup_url=None):
             f"Failed to download from both primary URL ({url})"
             f"{' and backup URL (' + backup_url + ')' if backup_url else ''}."
             "\nCheck your internet connection or the file availability.\n"
-            "For help, visit: https://github.com/rasbt/LLMs-from-scratch/discussions/273"
+            "For this help, visit: https://github.com/rasbt/LLMs-from-scratch/discussions/273"
         )
         print(error_message)
     except Exception as e:
